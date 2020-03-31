@@ -12,7 +12,7 @@
                     <b-form-input id="nested-name" v-model="name"></b-form-input>
                 </b-form-group>
 
-                <b-form-group
+                <!-- <b-form-group
                     label-cols-sm="3"
                     label="User Name:"
                     label-align-sm="right"
@@ -61,7 +61,7 @@
                     label-for="nested-company"
                 >
                     <b-form-input id="nested-company"></b-form-input>
-                </b-form-group>
+                </b-form-group> -->
                 <b-button @click="add">Add User</b-button>
             </b-card>
         </div>

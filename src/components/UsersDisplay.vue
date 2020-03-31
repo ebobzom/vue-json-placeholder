@@ -2,8 +2,9 @@
   <div class="users">
     <b-list-group>
         <b-list-group-item v-for="user in users" :key="user.id">
-            <p>{{ user.name }} <button @click="toggle"> Details</button></p>
-            <!-- <div :id="user.id" v-if="detail">
+            <p>{{ user.name }} </p>
+            <!-- <button @click="toggle"> Details</button>
+            <div :id="user.id" v-if="detail">
               <p>User Name: {{user.username}}</p>
               <p>Company: {{ user.company.name}}</p>
               <p>Phone: {{user.phone}}</p>
