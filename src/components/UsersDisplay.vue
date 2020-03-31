@@ -35,8 +35,8 @@ export default {
       });
     },
 
-    toggle(e) {
-      console.dir(e.target.gettAtribute('id'));
+    toggle() {
+      // console.dir(e.target.gettAtribute('id'));
       this.detail = true;
     },
   },
